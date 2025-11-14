@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaiKiran - Modern E-Commerce</title>
+    <title>NexusShop - Modern E-Commerce</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <style>
@@ -898,7 +898,7 @@
                 <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Laptop" class="product-img">
                 <div class="product-info">
                     <h3>MacBook Pro 14"</h3>
-                    <div class="price">$1,999</div>
+                    <div class="price">$1,1</div>
                     <div class="rating">★★★★☆ <span>(86)</span></div>
                     <button class="add-to-cart">Add to Cart</button>
                 </div>
@@ -991,7 +991,7 @@
                         </div>
                     </div>
                     
-                    <div class="deal-price">$999 <span class="deal-old-price">$1,199</span> <span class="deal-discount">-17%</span></div>
+                    <div class="deal-price">$1 <span class="deal-old-price">$1,199</span> <span class="deal-discount">-17%</span></div>
                     
                     <p>Only <strong>12</strong> items left at this price!</p>
                     
@@ -1073,7 +1073,7 @@
         <div class="container">
             <div class="footer-container">
                 <div class="footer-col">
-                    <h3>SaiKiran</h3>
+                    <h3>NexusShop</h3>
                     <p>Your one-stop destination for all the latest products in technology, fashion, and lifestyle.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -1121,7 +1121,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2023 SaiKiran. All rights reserved.</p>
+                <p>&copy; 2023 NexusShop. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -1150,7 +1150,7 @@
         function updateCountdown() {
             const now = new Date();
             const endOfDay = new Date();
-            endOfDay.setHours(23, 59, 59, 999);
+            endOfDay.setHours(23, 59, 59, 1);
             
             const diff = endOfDay - now;
             
